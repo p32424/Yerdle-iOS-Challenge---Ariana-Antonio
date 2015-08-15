@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		417F676B1B7FD17900730E6F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 417F676A1B7FD17900730E6F /* main.m */; };
+		417F676E1B7FD17900730E6F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 417F676D1B7FD17900730E6F /* AppDelegate.m */; };
+		417F67711B7FD17900730E6F /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 417F67701B7FD17900730E6F /* FirstViewController.m */; };
+		417F67741B7FD17900730E6F /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 417F67731B7FD17900730E6F /* SecondViewController.m */; };
+		417F67771B7FD17900730E6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 417F67751B7FD17900730E6F /* Main.storyboard */; };
+		417F67791B7FD17900730E6F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 417F67781B7FD17900730E6F /* Images.xcassets */; };
+		417F677C1B7FD17900730E6F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 417F677A1B7FD17900730E6F /* LaunchScreen.xib */; };
+		417F67881B7FD17900730E6F /* Yerdle_iOS_Challenge___Ariana_AntonioTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 417F67871B7FD17900730E6F /* Yerdle_iOS_Challenge___Ariana_AntonioTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		417F67821B7FD17900730E6F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 417F675D1B7FD17800730E6F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 417F67641B7FD17800730E6F;
+			remoteInfo = "Yerdle iOS Challenge - Ariana Antonio";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		417F67651B7FD17800730E6F /* Yerdle iOS Challenge - Ariana Antonio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Yerdle iOS Challenge - Ariana Antonio.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		417F67691B7FD17900730E6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		417F676A1B7FD17900730E6F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		417F676C1B7FD17900730E6F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		417F676D1B7FD17900730E6F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		417F676F1B7FD17900730E6F /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		417F67701B7FD17900730E6F /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		417F67721B7FD17900730E6F /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		417F67731B7FD17900730E6F /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		417F67761B7FD17900730E6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		417F67781B7FD17900730E6F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		417F677B1B7FD17900730E6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		417F67811B7FD17900730E6F /* Yerdle iOS Challenge - Ariana AntonioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Yerdle iOS Challenge - Ariana AntonioTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		417F67861B7FD17900730E6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		417F67871B7FD17900730E6F /* Yerdle_iOS_Challenge___Ariana_AntonioTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Yerdle_iOS_Challenge___Ariana_AntonioTests.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		417F67621B7FD17800730E6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		417F677E1B7FD17900730E6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		417F675C1B7FD17800730E6F = {
+			isa = PBXGroup;
+			children = (
+				417F67671B7FD17800730E6F /* Yerdle iOS Challenge - Ariana Antonio */,
+				417F67841B7FD17900730E6F /* Yerdle iOS Challenge - Ariana AntonioTests */,
+				417F67661B7FD17800730E6F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		417F67661B7FD17800730E6F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				417F67651B7FD17800730E6F /* Yerdle iOS Challenge - Ariana Antonio.app */,
+				417F67811B7FD17900730E6F /* Yerdle iOS Challenge - Ariana AntonioTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		417F67671B7FD17800730E6F /* Yerdle iOS Challenge - Ariana Antonio */ = {
+			isa = PBXGroup;
+			children = (
+				417F676C1B7FD17900730E6F /* AppDelegate.h */,
+				417F676D1B7FD17900730E6F /* AppDelegate.m */,
+				417F676F1B7FD17900730E6F /* FirstViewController.h */,
+				417F67701B7FD17900730E6F /* FirstViewController.m */,
+				417F67721B7FD17900730E6F /* SecondViewController.h */,
+				417F67731B7FD17900730E6F /* SecondViewController.m */,
+				417F67751B7FD17900730E6F /* Main.storyboard */,
+				417F67781B7FD17900730E6F /* Images.xcassets */,
+				417F677A1B7FD17900730E6F /* LaunchScreen.xib */,
+				417F67681B7FD17900730E6F /* Supporting Files */,
+			);
+			path = "Yerdle iOS Challenge - Ariana Antonio";
+			sourceTree = "<group>";
+		};
+		417F67681B7FD17900730E6F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				417F67691B7FD17900730E6F /* Info.plist */,
+				417F676A1B7FD17900730E6F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		417F67841B7FD17900730E6F /* Yerdle iOS Challenge - Ariana AntonioTests */ = {
+			isa = PBXGroup;
+			children = (
+				417F67871B7FD17900730E6F /* Yerdle_iOS_Challenge___Ariana_AntonioTests.m */,
+				417F67851B7FD17900730E6F /* Supporting Files */,
+			);
+			path = "Yerdle iOS Challenge - Ariana AntonioTests";
+			sourceTree = "<group>";
+		};
+		417F67851B7FD17900730E6F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				417F67861B7FD17900730E6F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		417F67641B7FD17800730E6F /* Yerdle iOS Challenge - Ariana Antonio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 417F678B1B7FD17900730E6F /* Build configuration list for PBXNativeTarget "Yerdle iOS Challenge - Ariana Antonio" */;
+			buildPhases = (
+				417F67611B7FD17800730E6F /* Sources */,
+				417F67621B7FD17800730E6F /* Frameworks */,
+				417F67631B7FD17800730E6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Yerdle iOS Challenge - Ariana Antonio";
+			productName = "Yerdle iOS Challenge - Ariana Antonio";
+			productReference = 417F67651B7FD17800730E6F /* Yerdle iOS Challenge - Ariana Antonio.app */;
+			productType = "com.apple.product-type.application";
+		};
+		417F67801B7FD17900730E6F /* Yerdle iOS Challenge - Ariana AntonioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 417F678E1B7FD17900730E6F /* Build configuration list for PBXNativeTarget "Yerdle iOS Challenge - Ariana AntonioTests" */;
+			buildPhases = (
+				417F677D1B7FD17900730E6F /* Sources */,
+				417F677E1B7FD17900730E6F /* Frameworks */,
+				417F677F1B7FD17900730E6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				417F67831B7FD17900730E6F /* PBXTargetDependency */,
+			);
+			name = "Yerdle iOS Challenge - Ariana AntonioTests";
+			productName = "Yerdle iOS Challenge - Ariana AntonioTests";
+			productReference = 417F67811B7FD17900730E6F /* Yerdle iOS Challenge - Ariana AntonioTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		417F675D1B7FD17800730E6F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Ariana Antonio";
+				TargetAttributes = {
+					417F67641B7FD17800730E6F = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					417F67801B7FD17900730E6F = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 417F67641B7FD17800730E6F;
+					};
+				};
+			};
+			buildConfigurationList = 417F67601B7FD17800730E6F /* Build configuration list for PBXProject "Yerdle iOS Challenge - Ariana Antonio" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 417F675C1B7FD17800730E6F;
+			productRefGroup = 417F67661B7FD17800730E6F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				417F67641B7FD17800730E6F /* Yerdle iOS Challenge - Ariana Antonio */,
+				417F67801B7FD17900730E6F /* Yerdle iOS Challenge - Ariana AntonioTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		417F67631B7FD17800730E6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				417F67771B7FD17900730E6F /* Main.storyboard in Resources */,
+				417F677C1B7FD17900730E6F /* LaunchScreen.xib in Resources */,
+				417F67791B7FD17900730E6F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		417F677F1B7FD17900730E6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		417F67611B7FD17800730E6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				417F67741B7FD17900730E6F /* SecondViewController.m in Sources */,
+				417F676E1B7FD17900730E6F /* AppDelegate.m in Sources */,
+				417F67711B7FD17900730E6F /* FirstViewController.m in Sources */,
+				417F676B1B7FD17900730E6F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		417F677D1B7FD17900730E6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				417F67881B7FD17900730E6F /* Yerdle_iOS_Challenge___Ariana_AntonioTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		417F67831B7FD17900730E6F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 417F67641B7FD17800730E6F /* Yerdle iOS Challenge - Ariana Antonio */;
+			targetProxy = 417F67821B7FD17900730E6F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		417F67751B7FD17900730E6F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				417F67761B7FD17900730E6F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		417F677A1B7FD17900730E6F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				417F677B1B7FD17900730E6F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		417F67891B7FD17900730E6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		417F678A1B7FD17900730E6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		417F678C1B7FD17900730E6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Yerdle iOS Challenge - Ariana Antonio/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		417F678D1B7FD17900730E6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Yerdle iOS Challenge - Ariana Antonio/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		417F678F1B7FD17900730E6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Yerdle iOS Challenge - Ariana AntonioTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Yerdle iOS Challenge - Ariana Antonio.app/Yerdle iOS Challenge - Ariana Antonio";
+			};
+			name = Debug;
+		};
+		417F67901B7FD17900730E6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Yerdle iOS Challenge - Ariana AntonioTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Yerdle iOS Challenge - Ariana Antonio.app/Yerdle iOS Challenge - Ariana Antonio";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		417F67601B7FD17800730E6F /* Build configuration list for PBXProject "Yerdle iOS Challenge - Ariana Antonio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				417F67891B7FD17900730E6F /* Debug */,
+				417F678A1B7FD17900730E6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		417F678B1B7FD17900730E6F /* Build configuration list for PBXNativeTarget "Yerdle iOS Challenge - Ariana Antonio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				417F678C1B7FD17900730E6F /* Debug */,
+				417F678D1B7FD17900730E6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		417F678E1B7FD17900730E6F /* Build configuration list for PBXNativeTarget "Yerdle iOS Challenge - Ariana AntonioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				417F678F1B7FD17900730E6F /* Debug */,
+				417F67901B7FD17900730E6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 417F675D1B7FD17800730E6F /* Project object */;
+}
