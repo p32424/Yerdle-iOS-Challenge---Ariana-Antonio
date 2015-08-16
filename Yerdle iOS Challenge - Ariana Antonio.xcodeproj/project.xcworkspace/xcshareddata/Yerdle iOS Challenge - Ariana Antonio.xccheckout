@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>2A4FF183-F104-4A8B-A4FF-5299E37B0106</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Yerdle iOS Challenge - Ariana Antonio</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>3E99C5DA8B491B5F5FBB92F978A2A14A5F7AAD9A</key>
+		<string>https://github.com/p32424/Yerdle-iOS-Challenge---Ariana-Antonio.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Yerdle iOS Challenge - Ariana Antonio.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>3E99C5DA8B491B5F5FBB92F978A2A14A5F7AAD9A</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/p32424/Yerdle-iOS-Challenge---Ariana-Antonio.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>3E99C5DA8B491B5F5FBB92F978A2A14A5F7AAD9A</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>3E99C5DA8B491B5F5FBB92F978A2A14A5F7AAD9A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Yerdle%20iOS%20Challenge%20-%20Ariana%20Antonio</string>
+		</dict>
+	</array>
+</dict>
+</plist>
