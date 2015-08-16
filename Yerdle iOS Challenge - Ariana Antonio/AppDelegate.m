@@ -7,9 +7,10 @@
 //
 
 #import "AppDelegate.h"
+#import "TokenStore.h"
 
 @interface AppDelegate ()
-
+@property (nonatomic, strong) TokenStore *tokenStore;
 @end
 
 @implementation AppDelegate
@@ -17,6 +18,17 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+
+    //check if user is logged in by checking for token
+    if ([self.tokenStore isLoggedIn]) {
+        // send user to main screen
+        self.window.rootViewController = [self.window.rootViewController.storyboard instantiateViewControllerWithIdentifier:@"mainView"];
+    } else {
+
+        // show the signup or login screen
+        self.window.rootViewController = [self.window.rootViewController.storyboard instantiateViewControllerWithIdentifier:@"splashScreen"];
+    }
+    
     return YES;
 }
 
